@@ -1,0 +1,610 @@
+{
+    "runtime": {
+        "com.coravy.hudson.plugins.github:github": {
+            "locked": "1.31.0",
+            "requested": "1.31.0"
+        },
+        "com.datapipe.jenkins.plugins:hashicorp-vault-plugin": {
+            "locked": "3.6.0",
+            "requested": "3.6.0"
+        },
+        "com.sonyericsson.hudson.plugins.rebuild:rebuild": {
+            "locked": "1.31",
+            "requested": "latest.release"
+        },
+        "hudson.plugins.filesystem_scm:filesystem_scm": {
+            "locked": "2.1",
+            "requested": "latest.release"
+        },
+        "io.jenkins.configuration-as-code:configuration-as-code-support": {
+            "locked": "1.19",
+            "requested": "latest.release"
+        },
+        "io.jenkins.plugins:analysis-model-api": {
+            "locked": "8.2.0"
+        },
+        "io.jenkins.plugins:bootstrap4-api": {
+            "locked": "4.5.0-2"
+        },
+        "io.jenkins.plugins:checks-api": {
+            "locked": "0.2.2"
+        },
+        "io.jenkins.plugins:code-coverage-api": {
+            "locked": "1.1.0"
+        },
+        "io.jenkins.plugins:configuration-as-code-groovy": {
+            "locked": "1.1",
+            "requested": "latest.release"
+        },
+        "io.jenkins.plugins:data-tables-api": {
+            "locked": "1.10.21-2"
+        },
+        "io.jenkins.plugins:echarts-api": {
+            "locked": "4.8.0-2",
+            "requested": "latest.release"
+        },
+        "io.jenkins.plugins:font-awesome-api": {
+            "locked": "5.13.0-1"
+        },
+        "io.jenkins.plugins:forensics-api": {
+            "locked": "0.7.0"
+        },
+        "io.jenkins.plugins:jquery3-api": {
+            "locked": "3.5.1-1"
+        },
+        "io.jenkins.plugins:okhttp-api": {
+            "locked": "3.14.9"
+        },
+        "io.jenkins.plugins:plugin-util-api": {
+            "locked": "1.2.2"
+        },
+        "io.jenkins.plugins:popper-api": {
+            "locked": "1.16.0-6"
+        },
+        "io.jenkins.plugins:snakeyaml-api": {
+            "locked": "1.26.4"
+        },
+        "io.jenkins.plugins:warnings-ng": {
+            "locked": "8.4.1",
+            "requested": "8.4.1"
+        },
+        "io.jenkins:configuration-as-code": {
+            "locked": "1.43",
+            "requested": "latest.release"
+        },
+        "jp.ikedam.jenkins.plugins:extensible-choice-parameter": {
+            "locked": "1.6.0",
+            "requested": "latest.release"
+        },
+        "org.6wind.jenkins:lockable-resources": {
+            "locked": "2.8",
+            "requested": "latest.release"
+        },
+        "org.biouno:uno-choice": {
+            "locked": "2.4",
+            "requested": "2.4"
+        },
+        "org.csanchez.jenkins.plugins:kubernetes": {
+            "locked": "1.26.4",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.main:jenkins-test-harness": {
+            "locked": "2.59",
+            "requested": "2.59"
+        },
+        "org.jenkins-ci.main:maven-plugin": {
+            "locked": "3.7",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins.icon-shim:icon-shim": {
+            "locked": "2.0.3",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins.pipeline-stage-view:pipeline-rest-api": {
+            "locked": "2.14"
+        },
+        "org.jenkins-ci.plugins.pipeline-stage-view:pipeline-stage-view": {
+            "locked": "2.14",
+            "requested": "2.14"
+        },
+        "org.jenkins-ci.plugins.workflow:workflow-aggregator": {
+            "locked": "2.6",
+            "requested": "2.6"
+        },
+        "org.jenkins-ci.plugins.workflow:workflow-api": {
+            "locked": "2.40",
+            "requested": "2.40"
+        },
+        "org.jenkins-ci.plugins.workflow:workflow-basic-steps": {
+            "locked": "2.20",
+            "requested": "2.20"
+        },
+        "org.jenkins-ci.plugins.workflow:workflow-cps": {
+            "locked": "2.82",
+            "requested": "2.82"
+        },
+        "org.jenkins-ci.plugins.workflow:workflow-cps-global-lib": {
+            "locked": "2.17",
+            "requested": "2.17"
+        },
+        "org.jenkins-ci.plugins.workflow:workflow-durable-task-step": {
+            "locked": "2.36",
+            "requested": "2.36"
+        },
+        "org.jenkins-ci.plugins.workflow:workflow-job": {
+            "locked": "2.39",
+            "requested": "2.39"
+        },
+        "org.jenkins-ci.plugins.workflow:workflow-multibranch": {
+            "locked": "2.22",
+            "requested": "2.22"
+        },
+        "org.jenkins-ci.plugins.workflow:workflow-scm-step": {
+            "locked": "2.11",
+            "requested": "2.11"
+        },
+        "org.jenkins-ci.plugins.workflow:workflow-step-api": {
+            "locked": "2.22",
+            "requested": "2.22"
+        },
+        "org.jenkins-ci.plugins.workflow:workflow-support": {
+            "locked": "3.5",
+            "requested": "3.5"
+        },
+        "org.jenkins-ci.plugins:ansicolor": {
+            "locked": "0.7.2",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:ant": {
+            "locked": "1.11",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:antisamy-markup-formatter": {
+            "locked": "2.1",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:apache-httpcomponents-client-4-api": {
+            "locked": "4.5.10-2.0"
+        },
+        "org.jenkins-ci.plugins:audit-trail": {
+            "locked": "3.6",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:authentication-tokens": {
+            "locked": "1.4"
+        },
+        "org.jenkins-ci.plugins:bouncycastle-api": {
+            "locked": "2.18",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:branch-api": {
+            "locked": "2.5.9",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:build-blocker-plugin": {
+            "locked": "1.7.3",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:build-name-setter": {
+            "locked": "2.1.0",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:build-timeout": {
+            "locked": "1.20",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:build-token-root": {
+            "locked": "1.6",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:build-user-vars-plugin": {
+            "locked": "1.6",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:build-with-parameters": {
+            "locked": "1.4",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:categorized-view": {
+            "locked": "1.8",
+            "requested": "1.8"
+        },
+        "org.jenkins-ci.plugins:claim": {
+            "locked": "2.16",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:cloudbees-folder": {
+            "locked": "6.14",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:cobertura": {
+            "locked": "1.16",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:command-launcher": {
+            "locked": "1.4",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:conditional-buildstep": {
+            "locked": "1.3.6",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:config-file-provider": {
+            "locked": "3.6.3",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:copy-project-link": {
+            "locked": "1.5",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:copy-to-slave": {
+            "locked": "1.4.4",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:copyartifact": {
+            "locked": "1.45.1",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:credentials": {
+            "locked": "2.3.12",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:credentials-binding": {
+            "locked": "1.23",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:dashboard-view": {
+            "locked": "2.13",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:display-url-api": {
+            "locked": "2.3.3",
+            "requested": "2.3.3"
+        },
+        "org.jenkins-ci.plugins:docker-commons": {
+            "locked": "1.17",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:docker-workflow": {
+            "locked": "1.24",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:durable-task": {
+            "locked": "1.34",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:email-ext": {
+            "locked": "2.75",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:embeddable-build-status": {
+            "locked": "2.0.3",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:emotional-jenkins-plugin": {
+            "locked": "1.2",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:envinject": {
+            "locked": "2.3.0",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:envinject-api": {
+            "locked": "1.6"
+        },
+        "org.jenkins-ci.plugins:external-monitor-job": {
+            "locked": "1.7",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:extra-columns": {
+            "locked": "1.22",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:ghprb": {
+            "locked": "1.42.1",
+            "requested": "1.42.1"
+        },
+        "org.jenkins-ci.plugins:git": {
+            "locked": "4.3.0",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:git-client": {
+            "locked": "3.4.1",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:git-server": {
+            "locked": "1.9",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:github-api": {
+            "locked": "1.115",
+            "requested": "1.115"
+        },
+        "org.jenkins-ci.plugins:gradle": {
+            "locked": "1.36",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:greenballs": {
+            "locked": "1.15",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:htmlpublisher": {
+            "locked": "1.23",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:ivy": {
+            "locked": "2.1",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:jackson2-api": {
+            "locked": "2.11.2",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:javadoc": {
+            "locked": "1.6",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:jdk-tool": {
+            "locked": "1.4",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:job-dsl": {
+            "locked": "1.77",
+            "requested": "1.77"
+        },
+        "org.jenkins-ci.plugins:jobConfigHistory": {
+            "locked": "2.26",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:jsch": {
+            "locked": "0.1.55.2",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:junit": {
+            "locked": "1.31",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:kubernetes-client-api": {
+            "locked": "4.9.2-2"
+        },
+        "org.jenkins-ci.plugins:ldap": {
+            "locked": "1.11",
+            "requested": "1.11"
+        },
+        "org.jenkins-ci.plugins:mailer": {
+            "locked": "1.32",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:matrix-auth": {
+            "locked": "2.6.2",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:matrix-project": {
+            "locked": "1.18"
+        },
+        "org.jenkins-ci.plugins:nested-view": {
+            "locked": "1.17",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:node-iterator-api": {
+            "locked": "1.5.0",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:nodejs": {
+            "locked": "1.3.7",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:p4": {
+            "locked": "1.10.14",
+            "requested": "1.10.14"
+        },
+        "org.jenkins-ci.plugins:pam-auth": {
+            "locked": "1.6",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:parameterized-trigger": {
+            "locked": "2.37",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:periodicbackup": {
+            "locked": "1.6",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:pipeline-build-step": {
+            "locked": "2.13",
+            "requested": "2.13"
+        },
+        "org.jenkins-ci.plugins:pipeline-graph-analysis": {
+            "locked": "1.10",
+            "requested": "1.10"
+        },
+        "org.jenkins-ci.plugins:pipeline-input-step": {
+            "locked": "2.11",
+            "requested": "2.11"
+        },
+        "org.jenkins-ci.plugins:pipeline-milestone-step": {
+            "locked": "1.3.1"
+        },
+        "org.jenkins-ci.plugins:pipeline-stage-step": {
+            "locked": "2.5",
+            "requested": "2.5"
+        },
+        "org.jenkins-ci.plugins:plain-credentials": {
+            "locked": "1.7",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:progress-bar-column-plugin": {
+            "locked": "1.0",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:publish-over": {
+            "locked": "0.21"
+        },
+        "org.jenkins-ci.plugins:publish-over-ssh": {
+            "locked": "1.20.1",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:read-only-configurations": {
+            "locked": "1.10",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:resource-disposer": {
+            "locked": "0.3"
+        },
+        "org.jenkins-ci.plugins:rich-text-publisher-plugin": {
+            "locked": "1.4",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:run-condition": {
+            "locked": "1.3",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:saml": {
+            "locked": "1.1.7",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:scm-api": {
+            "locked": "2.6.3",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:script-security": {
+            "locked": "1.74",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:sectioned-view": {
+            "locked": "1.25",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:sidebar-link": {
+            "locked": "1.11.0",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:slack": {
+            "locked": "2.40",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:sonar": {
+            "locked": "2.11",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:ssh": {
+            "locked": "2.6.1",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:ssh-agent": {
+            "locked": "1.20",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:ssh-credentials": {
+            "locked": "1.18.1",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:ssh-slaves": {
+            "locked": "1.31.2",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:structs": {
+            "locked": "1.20",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:summary_report": {
+            "locked": "1.15",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:test-results-analyzer": {
+            "locked": "0.3.5",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:testng-plugin": {
+            "locked": "1.15",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:token-macro": {
+            "locked": "2.12",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:trilead-api": {
+            "locked": "1.0.8",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.plugins:variant": {
+            "locked": "1.3"
+        },
+        "org.jenkins-ci.plugins:ws-cleanup": {
+            "locked": "0.38",
+            "requested": "latest.release"
+        },
+        "org.jenkins-ci.ui:ace-editor": {
+            "locked": "1.1"
+        },
+        "org.jenkins-ci.ui:handlebars": {
+            "locked": "1.1.1"
+        },
+        "org.jenkins-ci.ui:jquery-detached": {
+            "locked": "1.2.1"
+        },
+        "org.jenkins-ci.ui:momentjs": {
+            "locked": "1.1"
+        },
+        "org.jenkinsci.plugins:kubernetes-credentials": {
+            "locked": "0.7.0"
+        },
+        "org.jenkinsci.plugins:pipeline-model-api": {
+            "locked": "1.7.1"
+        },
+        "org.jenkinsci.plugins:pipeline-model-definition": {
+            "locked": "1.7.1",
+            "requested": "1.7.1"
+        },
+        "org.jenkinsci.plugins:pipeline-model-extensions": {
+            "locked": "1.7.1"
+        },
+        "org.jenkinsci.plugins:pipeline-stage-tags-metadata": {
+            "locked": "1.7.1"
+        },
+        "org.jvnet.hudson.plugins:analysis-collector": {
+            "locked": "2.0.0",
+            "requested": "latest.release"
+        },
+        "org.jvnet.hudson.plugins:analysis-core": {
+            "locked": "1.96",
+            "requested": "latest.release"
+        },
+        "org.jvnet.hudson.plugins:backup": {
+            "locked": "1.6.1",
+            "requested": "latest.release"
+        },
+        "org.jvnet.hudson.plugins:checkstyle": {
+            "locked": "4.0.0",
+            "requested": "latest.release"
+        },
+        "org.jvnet.hudson.plugins:favorite": {
+            "locked": "2.3.2",
+            "requested": "latest.release"
+        },
+        "org.jvnet.hudson.plugins:findbugs": {
+            "locked": "5.0.0",
+            "requested": "latest.release"
+        },
+        "org.jvnet.hudson.plugins:hgca": {
+            "locked": "1.3",
+            "requested": "latest.release"
+        },
+        "org.jvnet.hudson.plugins:instant-messaging": {
+            "locked": "1.38",
+            "requested": "latest.release"
+        },
+        "org.jvnet.hudson.plugins:monitoring": {
+            "locked": "1.85.0",
+            "requested": "latest.release"
+        },
+        "org.jvnet.hudson.plugins:pmd": {
+            "locked": "4.0.0",
+            "requested": "latest.release"
+        },
+        "org.jvnet.hudson.plugins:postbuild-task": {
+            "locked": "1.8",
+            "requested": "latest.release"
+        }
+    }
+}

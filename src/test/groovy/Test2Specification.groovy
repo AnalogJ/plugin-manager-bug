@@ -1,3 +1,4 @@
+import com.matthiasdenu.Custom2PluginManager
 import com.matthiasdenu.CustomPluginManager
 import hudson.EnvVars
 import hudson.FilePath
@@ -19,7 +20,7 @@ import spock.lang.Unroll
 class Test2Specification extends Specification {
     @Shared
     @ClassRule
-    JenkinsRule jenkinsRule = new JenkinsRule().with(CustomPluginManager.INSTANCE)
+    JenkinsRule jenkinsRule = new JenkinsRule().with(Custom2PluginManager.INSTANCE)
 
     @Shared jenkinsJobs = []
     @Shared dslGeneratedItems

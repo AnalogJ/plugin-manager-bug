@@ -1,4 +1,3 @@
-import com.matthiasdenu.CustomPluginManager
 import hudson.EnvVars
 import hudson.FilePath
 import hudson.PluginManager
@@ -16,10 +15,10 @@ import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Unroll
 
-abstract class BaseSpecification extends Specification {
+class Test2Specification extends Specification {
     @Shared
     @ClassRule
-    JenkinsRule jenkinsRule = new JenkinsRule().with(getPluginManager())
+    JenkinsRule jenkinsRule = new JenkinsRule().with(TestPluginManager.INSTANCE)
 
     @Shared jenkinsJobs = []
     @Shared dslGeneratedItems
@@ -84,8 +83,6 @@ abstract class BaseSpecification extends Specification {
         return dslScriptLoader.runScripts(scriptRequests)
     }
 
-    abstract String getEnvironment()
-
     String getEnvironmentDisplayName() {
         return getEnvironment().substring(0, 1).toUpperCase() + getEnvironment().substring(1)
     }
@@ -137,7 +134,9 @@ abstract class BaseSpecification extends Specification {
         }
     }
 
-    PluginManager getPluginManager() {
-        return TestPluginManager.INSTANCE
+
+
+    String getEnvironment() {
+        return "test2"
     }
 }

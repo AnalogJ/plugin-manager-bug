@@ -19,7 +19,7 @@ import spock.lang.Unroll
 class Test2Specification extends Specification {
     @Shared
     @ClassRule
-    Custom2JenkinsRule jenkinsRule = new Custom2JenkinsRule() //.with(Custom2PluginManager.INSTANCE)
+    JenkinsRule jenkinsRule = new JenkinsRule().with(CustomPluginManager.INSTANCE)
 
     @Shared jenkinsJobs = []
     @Shared dslGeneratedItems

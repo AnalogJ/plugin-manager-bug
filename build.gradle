@@ -132,7 +132,12 @@ task resolveTestPluginsCustom(type: Copy) {
 
 test {
     dependsOn tasks.resolveTestPlugins
-    dependsOn tasks.resolveTestPluginsCustom
+
+    filter {
+        //exclude test method Test2
+        excludeTestsMatching "*Test2Specification*"
+    }
+
 
     inputs.files sourceSets.jobs.groovy.srcDirs
     exclude '**/XmlOutput.class'
@@ -142,6 +147,24 @@ test {
     systemProperty 'buildDirectory', project.buildDir.absolutePath // JENKINS-26331
     systemProperty 'jenkins.test.timeout', 600 // JENKINS-50642
 }
+
+task customTest(type: Test) {
+    dependsOn tasks.resolveTestPluginsCustom
+
+    filter {
+        //specific test method
+        includeTestsMatching "*Test2Specification*"
+    }
+
+    inputs.files sourceSets.jobs.groovy.srcDirs
+    exclude '**/XmlOutput.class'
+    exclude '**/BaseSpecification.class'
+
+    systemProperty 'jenkins.test.noSpaceInTmpDirs', 'true'
+    systemProperty 'buildDirectory', project.buildDir.absolutePath // JENKINS-26331
+    systemProperty 'jenkins.test.timeout', 600 // JENKINS-50642
+}
+
 
 static def getPluginsFromLockFile() {
     def inputFile = new File("plugins.lock")

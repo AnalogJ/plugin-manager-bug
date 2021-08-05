@@ -58,7 +58,7 @@ import java.util.logging.Logger;
  */
 public class Custom1PluginManager extends PluginManager {
 
-  public static PluginManager INSTANCE;
+  public final static PluginManager INSTANCE;
   private static final Logger LOGGER = Logger.getLogger(Custom1PluginManager.class.getName());
 
   static {
